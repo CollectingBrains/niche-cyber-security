@@ -1,0 +1,74 @@
+/* .has-submenu:hover ~ #sm-16407912144577168-2,.has-submenu:hover  ~ #sm-16407912144577168-6{
+  color: #0EC9AC;
+    fill: #0EC9AC;
+    display: block;
+}
+   */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.services-details{ 
+   background-image: linear-gradient(0deg, #00142c, rgb(0 19 44 / 48%)),url(../public/assets/images/services-details-1.jpg) !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.page-heading{
+   color: #FFFFFF !important;
+    font-family: "Lato", Sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center; 
+}
+.center{
+  text-align: center;
+}
+.page-heading-title{
+  text-align: center;
+  color: #828FA0 !important;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 500; 
+}
+.elementor-element.elementor-element-a7e7ccb .elementor-heading-title {
+  color: #0EC9AC;
+  font-family: "Lato", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+ 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
